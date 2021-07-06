@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: sarita26/angular-app:#{Build.BuildId}#
+        image: multitenantpoc.azurecr.io/sarita26/angular-app:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
